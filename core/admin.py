@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Product
+from .models import Produto
 
 class ProdutoAdmin(admin.ModelAdmin):
     list_display = (
@@ -12,4 +12,4 @@ class ProdutoAdmin(admin.ModelAdmin):
     )
 
 
-admin.site.register(Product, ProdutoAdmin)
+admin.site.register(Produto, ProdutoAdmin)

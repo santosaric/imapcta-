@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class Product(models.Model):
+class Produto(models.Model):
     nome = models.CharField('Nome', max_length=100)
     codigo_do_produto = models.IntegerField('Codigo de produto')
     preco = models.DecimalField('Preço', decimal_places=2, max_digits=9)
