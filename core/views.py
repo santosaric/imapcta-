@@ -6,7 +6,7 @@ class IndexView(TemplateView):
     
 
 class MenuView(TemplateView):
-    template_name = 'menu/menu.html'
+    template_name = 'menu/food.html'
     
 class AboutView(TemplateView):
     template_name = 'menu/about.html'

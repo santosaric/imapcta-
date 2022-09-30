@@ -80,12 +80,12 @@ WSGI_APPLICATION = 'cyberburguer.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'cyberburguer',
-        'USER': 'cyberburgueradmin',
-        'PASSWORD': 'cyber1234',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'cyberburgueradmin',
+        'USER': 'root',
+        'PASSWORD': '1234',
         'HOST': 'localhost',
-        'PORT': '5432',
+        'PORT': '3306',
     }
 }
 
